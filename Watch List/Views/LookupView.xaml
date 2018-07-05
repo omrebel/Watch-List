@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="Watch_List.Views.LookupView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+             xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
+             xmlns:ViewModels="clr-namespace:Watch_List.ViewModels"
+             mc:Ignorable="d"
+             DataContext="{dxmvvm:ViewModelSource Type=ViewModels:LookupViewModel}"
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <dxlc:LayoutControl Orientation="Vertical" StretchContentHorizontally="False" Padding="10" Margin="0">
+        <dxlc:LayoutGroup View="Group" Orientation="Horizontal">
+            <dxlc:LayoutItem Label="Name: " HorizontalAlignment="Left">
+                <dxe:TextEdit EditValue="{Binding LookupValue, UpdateSourceTrigger=PropertyChanged}" Width="400" NullText="Enter Show Name" x:Name="lookupValue">
+                </dxe:TextEdit>
+            </dxlc:LayoutItem>
+            <dx:SimpleButton  Height="20" HorizontalAlignment="Left" Glyph="{dx:DXImage Image=Find_16x16.png}" IsDefault="True">
+                <dxmvvm:Interaction.Triggers>
+                    <dxmvvm:EventToCommand EventName="Click" Command="{Binding Path=SearchCommand}" PassEventArgsToCommand="True"/>
+                </dxmvvm:Interaction.Triggers>
+            </dx:SimpleButton>
+        </dxlc:LayoutGroup>
+        <dxlc:LayoutGroup View="Group" Orientation="Horizontal">
+            <dxe:ImageEdit Width="200" Height="300" EditValue="{Binding ShowImage, UpdateSourceTrigger=PropertyChanged}" ShowMenu="False" Margin="0,0,5,5"/>
+            <dxlc:LayoutGroup Orientation="Vertical">
+                <dxlc:LayoutItem Label="{Binding ShowName, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" FontWeight="Bold" FontSize="14" />
+                <dxlc:LayoutItem Label="{Binding NetworkName, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left"  />
+                <dxlc:LayoutGroup Orientation="Vertical" >
+                    <dxe:TextEdit EditValue="{Binding Synopsis, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Height="190" VerticalAlignment="Bottom" 
+                              VerticalContentAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Auto" Width="300" />
+                </dxlc:LayoutGroup>
+            </dxlc:LayoutGroup>
+            
+        </dxlc:LayoutGroup>
+
+
+
+    </dxlc:LayoutControl>
+    
+</UserControl>
