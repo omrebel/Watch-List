@@ -10,22 +10,22 @@
   <trustInfo>
     <security>
       <applicationRequestMinimum>
-        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
         <defaultAssemblyRequest permissionSetReference="Custom" />
       </applicationRequestMinimum>
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
-        <!--
-          UAC Manifest Options
-          If you want to change the Windows User Account Control level replace the 
-          requestedExecutionLevel node with one of the following.
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         If you want to utilize File and Registry Virtualization for backward 
-         compatibility then delete the requestedExecutionLevel node.
-    -->
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
       </requestedPrivileges>
     </security>
@@ -703,14 +703,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Watch List.exe" size="480728">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Watch List.exe" size="479704">
       <assemblyIdentity name="Watch List" version="1.0.0.5" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4Kokuy2FrdaEScDbN2ONt83RgJM1xYn7Oo6GeuZHjgA=</dsig:DigestValue>
+        <dsig:DigestValue>BSOKi9eTjkgoz3v1sE0Fbtx+ANZS62xrWxpz9Xgh9wA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -732,4 +732,21 @@
       <dsig:DigestValue>zGdPzHM1jfLTQaqGy9fB2u/P5PYGZWhonToIVGgzqEw=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=DESKTOP-IM28VF5\Brad" issuerKeyHash="d61ae2f3a7f0acd59c8cfad5e71b78db4b49aa34" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>clvDVRssCT+DhhNICkaSjqikmrZoquV9o5z78Oleu+M=</DigestValue></Reference></SignedInfo><SignatureValue>oH8a2NOc5b+smPUwmX05CLxFw6KlICdZf5jdQiy3nFKpzgNwVxYD8mxxMVApP68My0reWTnwh1BgFTjr2PO7EHbr4DwjSin7vi1XJYEKrG118W+/VzEDXD+j8w1L66Anms1Pgbhw4/eQTyV0hF4cR4cISvNsLdqbHR4eX7GjIxU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uSaxRn9Ozv8Ofg9jhrP0VDbbxmu2YceRLYARSiTG9lEZ+sdFd9rLYOh7ANxaqQjY/ou3wBBtvcjfaxG4aCMIrxXnGkrltqvQclLxlnyZdxBtR4Yd7AWUikOtVOiSw6TfifI22VNYBSOprycuoJU7n6qMuDHdrU98uaaQ+pKezZU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e3bb5ee9f0fb9ca37de5aa68b69aa4a88e92460a481386833f092c1b55c35b72" Description="" Url=""><as:assemblyIdentity name="Watch List.exe" version="1.0.0.5" publicKeyToken="c5fb04eab8f8eb4b" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-IM28VF5\Brad</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>af+s/ah9pWuh3Rhgeapw8HqoeBwW2KPJGOuNYSOKWx4=</DigestValue></Reference></SignedInfo><SignatureValue>b4x1JRiKf/COId3EJkAOKKX5xcHgM6+VSR92l1P/zpkGV1/601Br4IwlJYdvVPlDiCiv03cC4GWCQnkSF3ACYao4AWug66rP4u8/9kHlU8ILeBIKCqKKN9bkwS38J55NM1/OWGLY5gm485Ps0WCWM6bnOsXsP4GyvZFFpg0GtIc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uSaxRn9Ozv8Ofg9jhrP0VDbbxmu2YceRLYARSiTG9lEZ+sdFd9rLYOh7ANxaqQjY/ou3wBBtvcjfaxG4aCMIrxXnGkrltqvQclLxlnyZdxBtR4Yd7AWUikOtVOiSw6TfifI22VNYBSOprycuoJU7n6qMuDHdrU98uaaQ+pKezZU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQWbSlugELNZdFs8flVJ1QTzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEkATQAyADgAVgBGADUAXABCAHIAYQBkMB4XDTE4MDcwNTEzMTcwOFoXDTE5MDcwNTE5MTcwOFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBJAE0AMgA4AFYARgA1AFwAQgByAGEAZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuSaxRn9Ozv8Ofg9jhrP0VDbbxmu2YceRLYARSiTG9lEZ+sdFd9rLYOh7ANxaqQjY/ou3wBBtvcjfaxG4aCMIrxXnGkrltqvQclLxlnyZdxBtR4Yd7AWUikOtVOiSw6TfifI22VNYBSOprycuoJU7n6qMuDHdrU98uaaQ+pKezZUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAMiv+2qynzuQJaQCn5wfGRF6Ap9ItyD13RchRyCnocHu+yUa3FK1bDpqbAszDYHfyCTSJFWH/MEUKph0CxGu8Za427v22jNau/z0JTvWV7ub0sqtaRFPoda2jQp53Nlp//tcpIZK79A/uD/EbzyeRUmyZkDtKfFrcey6Hq3JwtdA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-IM28VF5\Brad" issuerKeyHash="d61ae2f3a7f0acd59c8cfad5e71b78db4b49aa34" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sRkjR4vYksIRulged0N834fhyDwcfJDaXVay7Sdjxt8=</DigestValue></Reference></SignedInfo><SignatureValue>kn52gTQvJ7OegfmB1yLj2QUEj5XyjI3l3ICbC6IghGf/a2Orc4k8Svq1W8YVrrSvnrn0++niiMFAcEEI2TGMdQ4x+eMrL8hLNxnifZoha5th2vAQuzwL//RoS3QE0UWOrkn0PnmIPrVKbVa10BIu1UX3Z5gDcd8y297v/puq7qY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uSaxRn9Ozv8Ofg9jhrP0VDbbxmu2YceRLYARSiTG9lEZ+sdFd9rLYOh7ANxaqQjY/ou3wBBtvcjfaxG4aCMIrxXnGkrltqvQclLxlnyZdxBtR4Yd7AWUikOtVOiSw6TfifI22VNYBSOprycuoJU7n6qMuDHdrU98uaaQ+pKezZU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dfc66327edb2565dda907c1c3cc8e187df7c43771e58ba11c292d88b472319b1" Description="" Url=""><as:assemblyIdentity name="Watch List.exe" version="1.0.0.5" publicKeyToken="c5fb04eab8f8eb4b" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-IM28VF5\Brad</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Bnu4EhJ+NLbsUZhJOe/C7UnQ6ggTQ1yAAXZVgarisX8=</DigestValue></Reference></SignedInfo><SignatureValue>oK34jIGS1tQqNq/bXDQ+WSRmx5HOi9NdYQ908GYX2xhWMIyTEo6lFDj3GXxhhnga7znCP3DOPAMrB0AVvOo4MeqLTK7+nVV84gSXeJr0B5DMuL6ziUVoAAvtr5DbJbKYELlhxdPAkJRCpvLi2zCjlM74Cmh8Oo9VLgwQlt0ll64=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uSaxRn9Ozv8Ofg9jhrP0VDbbxmu2YceRLYARSiTG9lEZ+sdFd9rLYOh7ANxaqQjY/ou3wBBtvcjfaxG4aCMIrxXnGkrltqvQclLxlnyZdxBtR4Yd7AWUikOtVOiSw6TfifI22VNYBSOprycuoJU7n6qMuDHdrU98uaaQ+pKezZU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQWbSlugELNZdFs8flVJ1QTzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEkATQAyADgAVgBGADUAXABCAHIAYQBkMB4XDTE4MDcwNTEzMTcwOFoXDTE5MDcwNTE5MTcwOFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBJAE0AMgA4AFYARgA1AFwAQgByAGEAZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuSaxRn9Ozv8Ofg9jhrP0VDbbxmu2YceRLYARSiTG9lEZ+sdFd9rLYOh7ANxaqQjY/ou3wBBtvcjfaxG4aCMIrxXnGkrltqvQclLxlnyZdxBtR4Yd7AWUikOtVOiSw6TfifI22VNYBSOprycuoJU7n6qMuDHdrU98uaaQ+pKezZUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAMiv+2qynzuQJaQCn5wfGRF6Ap9ItyD13RchRyCnocHu+yUa3FK1bDpqbAszDYHfyCTSJFWH/MEUKph0CxGu8Za427v22jNau/z0JTvWV7ub0sqtaRFPoda2jQp53Nlp//tcpIZK79A/uD/EbzyeRUmyZkDtKfFrcey6Hq3JwtdA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

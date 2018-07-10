@@ -38,24 +38,24 @@ namespace Watch_List.ViewModels
             this.Shows = new ObservableCollection<TVShows>();
             this.TodayShows = new ObservableCollection<TodayShow>();
 
-            try
-            {
-                //Load all of our shows
-                this.TVShowsCollection.LoadAll();
+            //try
+            //{
+            //    //Load all of our shows
+            //    this.TVShowsCollection.LoadAll();
 
-                //Populate our observable collection
-                foreach (TVShows show in TVShowsCollection)
-                {
-                    this.Shows.Add(show);
-                }
+            //    //Populate our observable collection
+            //    foreach (TVShows show in TVShowsCollection)
+            //    {
+            //        this.Shows.Add(show);
+            //    }
 
-                //Populate the next air date for each show in the background (async)
-                NextAirDate();
-            }
-            catch (Exception ex)
-            {
-                this.MessageBoxService.ShowMessage(ex.Message, "Error");
-            }
+            //    //Populate the next air date for each show in the background (async)
+            //    NextAirDate();
+            //}
+            //catch (Exception ex)
+            //{
+            //    this.MessageBoxService.ShowMessage(ex.Message, "Error");
+            //}
         }
 
         public void OnLoaded()
@@ -74,14 +74,16 @@ namespace Watch_List.ViewModels
             #endregion
 
             #region Create Database
-            if (!System.IO.File.Exists("database.db"))
+            if (!System.IO.File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db"))
             {
                 try
                 {
                     this.SplashScreenService.ShowSplashScreen();
-                    SQLiteConnection.CreateFile("database.db");
+                    SQLiteConnection.CreateFile(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db");
 
-                    SQLiteConnection con = new SQLiteConnection("Data Source=database.db;Version=3;");
+                    //SQLiteConnection con = new SQLiteConnection("Data Source=database.db;Version=3;");
+                    string conString = "DataSource=" + Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db;Version=3;";
+                    SQLiteConnection con = new SQLiteConnection(conString);
                     con.Open();
 
                     string sql = "CREATE TABLE TVShows (Id integer primary key AUTOINCREMENT UNIQUE, MazeId varchar(25), Title  varchar(100), Synopsis varchar(255), Image varchar(255), NextAirDate varchar(100));";
@@ -104,6 +106,27 @@ namespace Watch_List.ViewModels
                     this.SplashScreenService.HideSplashScreen();
                     this.MessageBoxService.ShowMessage(ex.Message, "Error");
                 }
+            }
+            #endregion
+
+            #region Populate Data
+            try
+            {
+                //Load all of our shows
+                this.TVShowsCollection.LoadAll();
+
+                //Populate our observable collection
+                foreach (TVShows show in TVShowsCollection)
+                {
+                    this.Shows.Add(show);
+                }
+
+                //Populate the next air date for each show in the background (async)
+                NextAirDate();
+            }
+            catch (Exception ex)
+            {
+                this.MessageBoxService.ShowMessage(ex.Message, "Error");
             }
             #endregion
         }
@@ -294,7 +317,7 @@ namespace Watch_List.ViewModels
                 }
             }
 
-            if (shows.Rows.Count > 0)
+            if (shows.Rows.Count > 0 || shows2.Rows.Count > 0)
             {
                 this.SplashScreenService.SetSplashScreenState("Creating and sending email...");
 
@@ -329,7 +352,13 @@ namespace Watch_List.ViewModels
         {
             this.TodayShowInfo = "Getting today's shows...";
             TodayShows = new ObservableCollection<TodayShow>();
+            var tmpShows = new ObservableCollection<TVShows>();
             foreach (TVShows show in this.Shows)
+            {
+                tmpShows.Add(show);
+            }
+
+            foreach (TVShows show in tmpShows)
             {
                 var series = await TVMaze.TVMaze.GetSeries(Convert.ToUInt32(show.MazeId), true, false);
 
