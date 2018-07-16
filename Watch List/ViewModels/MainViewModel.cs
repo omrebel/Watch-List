@@ -37,25 +37,6 @@ namespace Watch_List.ViewModels
             this.TVShowsCollection = new TVShowsCollection();
             this.Shows = new ObservableCollection<TVShows>();
             this.TodayShows = new ObservableCollection<TodayShow>();
-
-            //try
-            //{
-            //    //Load all of our shows
-            //    this.TVShowsCollection.LoadAll();
-
-            //    //Populate our observable collection
-            //    foreach (TVShows show in TVShowsCollection)
-            //    {
-            //        this.Shows.Add(show);
-            //    }
-
-            //    //Populate the next air date for each show in the background (async)
-            //    NextAirDate();
-            //}
-            //catch (Exception ex)
-            //{
-            //    this.MessageBoxService.ShowMessage(ex.Message, "Error");
-            //}
         }
 
         public void OnLoaded()
@@ -216,8 +197,6 @@ namespace Watch_List.ViewModels
 
         public async void SendEmails()
         {
-           
-
             MailPreferencesCollection myPrefs = new MailPreferencesCollection();
             myPrefs.LoadAll();
             if (!myPrefs.HasData)
@@ -254,9 +233,9 @@ namespace Watch_List.ViewModels
                             DateTimeKind.Utc);
 
                         DataRow dr = shows.NewRow();
-                        if (series.network.name != "")
+                        if (series.network != null && series.network.name != "")
                             dr[0] = series.name + "(" + series.network.name + ")";
-                        else if (series.webChannel.name != "")
+                        else if (series.webChannel != null && series.webChannel.name != "")
                             dr[0] = series.name + "(" + series.webChannel.name + ")";
                         else
                             dr[0] = series.name;
@@ -274,8 +253,10 @@ namespace Watch_List.ViewModels
                             DateTimeKind.Utc);
 
                         DataRow dr = shows2.NewRow();
-                        if (series.network.name != "")
+                        if (series.network != null && series.network.name != "")
                             dr[0] = series.name + "(" + series.network.name + ")";
+                        else if (series.webChannel != null && series.webChannel.name != "")
+                            dr[0] = series.name + "(" + series.webChannel.name + ")";
                         else
                             dr[0] = series.name;
                         dr[1] = convertedDate;

@@ -35,8 +35,8 @@
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>8</ApplicationRevision>
-    <ApplicationVersion>1.0.0.8</ApplicationVersion>
+    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationVersion>1.0.0.10</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -147,29 +147,26 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="Tiraggo.Core, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Tiraggo.SQL.2015.1.0309.1\lib\net45\Tiraggo.Core.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Tiraggo.Core">
+      <HintPath>..\..\..\..\Watch List DLLs\Tiraggo.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Tiraggo.DynamicQuery, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Tiraggo.SQL.2015.1.0309.1\lib\net45\Tiraggo.DynamicQuery.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Tiraggo.DynamicQuery">
+      <HintPath>..\..\..\..\Watch List DLLs\Tiraggo.DynamicQuery.dll</HintPath>
     </Reference>
-    <Reference Include="Tiraggo.Interfaces, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Tiraggo.SQL.2015.1.0309.1\lib\net45\Tiraggo.Interfaces.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Tiraggo.Interfaces">
+      <HintPath>..\..\..\..\Watch List DLLs\Tiraggo.Interfaces.dll</HintPath>
     </Reference>
-    <Reference Include="Tiraggo.js, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Tiraggo.SQL.2015.1.0309.1\lib\net45\Tiraggo.js.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Tiraggo.js">
+      <HintPath>..\..\..\..\Watch List DLLs\Tiraggo.js.dll</HintPath>
     </Reference>
-    <Reference Include="Tiraggo.Loader, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Tiraggo.SQL.2015.1.0309.1\lib\net45\Tiraggo.Loader.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Tiraggo.Loader">
+      <HintPath>..\..\..\..\Watch List DLLs\Tiraggo.Loader.dll</HintPath>
     </Reference>
-    <Reference Include="Tiraggo.SqlClientProvider, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Tiraggo.SQL.2015.1.0309.1\lib\net45\Tiraggo.SqlClientProvider.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Tiraggo.SqlClientProvider">
+      <HintPath>..\..\..\..\Watch List DLLs\Tiraggo.SqlClientProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Tiraggo.SQLiteProvider">
+      <HintPath>..\..\..\..\Watch List DLLs\Tiraggo.SQLiteProvider.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
@@ -808,15 +805,16 @@
       <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Tiraggo\README.TXT" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Tiraggo\Generated\Placeholder.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Tiraggo\Custom\Placeholder.txt" />
+    <PublishFile Include="Tiraggo.SQLiteProvider">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.108.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.108.0\build\net46\System.Data.SQLite.Core.targets')" />

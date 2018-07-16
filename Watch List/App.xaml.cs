@@ -33,9 +33,6 @@ namespace Watch_List
 
                 SQLiteConnection.CreateFile(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db");
 
-                SQLiteConnection.CreateFile(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db");
-
-                //var conString = "DataSource=" + Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db;Version=3;";
                 SQLiteConnection con = new SQLiteConnection("DataSource=" + Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db;Version=3;");
                 con.Open();
 
@@ -71,8 +68,6 @@ namespace Watch_List
 
             tgConfigSettings.ConnectionInfo.Connections.Add(conn);
             tgConfigSettings.ConnectionInfo.Default = "SQLite";
-
-            
             #endregion
         }
     }

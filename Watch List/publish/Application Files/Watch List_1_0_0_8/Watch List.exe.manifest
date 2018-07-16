@@ -584,6 +584,18 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tiraggo.DynamicQuery.dll" size="86016">
+      <assemblyIdentity name="Tiraggo.DynamicQuery" version="2014.1.419.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v7mVXWVP+C/u+RyOeHhUjiH+2zEW2nKSTycnXSUqN2Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tiraggo.DynamicQuery.dll" size="86016">
       <assemblyIdentity name="Tiraggo.DynamicQuery" version="2015.1.309.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
@@ -591,6 +603,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>W6ZvHydgYPc4Jz9UcEkNpp7P5HRShZppL3vN9h+Y3Bk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tiraggo.Interfaces.dll" size="40448">
+      <assemblyIdentity name="Tiraggo.Interfaces" version="2014.1.419.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VeTBtpRbIzZ7cQY8FpEZRg9kIH7t3rfDJzyC5ojHjto=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -643,6 +667,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tiraggo.SQLiteProvider.dll" size="51200">
+      <assemblyIdentity name="Tiraggo.SQLiteProvider" version="2014.1.419.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ye/lWHcA/Y2f4sTgob/0apMDdhr6AW6ZixBeg25JIKg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Watch List.exe" size="480768">
       <assemblyIdentity name="Watch List" version="1.0.0.8" language="neutral" processorArchitecture="x86" />
       <hash>
@@ -650,7 +686,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>PImOHaYZbi9+hmy7oEFsMo2t1dEnB/M94cK40hoQCW0=</dsig:DigestValue>
+        <dsig:DigestValue>PE3nTCbCfQ/0lWL6xOWUXiceNkGjkQzCo/SHMIvA8Ac=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

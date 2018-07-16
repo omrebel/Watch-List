@@ -14,14 +14,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\Watch List_1_0_0_8\Watch List.exe.manifest" size="41496">
+    <dependentAssembly dependencyType="install" codebase="Application Files\Watch List_1_0_0_8\Watch List.exe.manifest" size="43484">
       <assemblyIdentity name="Watch List.exe" version="1.0.0.8" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>b8l69/EzvFbfRs5Q43aOx5JN/M1Ybt4nPiS+a9bPqCY=</dsig:DigestValue>
+        <dsig:DigestValue>RhXYl34u7eNobAkVjSyfzPGuRkX/a7nqBX3jmk0gzW0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

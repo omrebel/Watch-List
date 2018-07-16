@@ -15,6 +15,18 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_063AFB07EEF7AB43C8F40AE7FE694D6F"
+        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_063AFB07EEF7AB43C8F40AE7FE694D6F"
+        "OwnerKey" = "8:_DBA5D159432E7F949C62C4DB5AFDB649"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0D8BFD32D90B42C684B071A7AB630913"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -45,6 +57,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_22EC81B5051F28FD0CD3B30ACF81FBA8"
+        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_22EC81B5051F28FD0CD3B30ACF81FBA8"
+        "OwnerKey" = "8:_DBA5D159432E7F949C62C4DB5AFDB649"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_25E33957FF8C3DE0D56737F444D54DB7"
         "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
         "MsmSig" = "8:_UNDEFINED"
@@ -53,30 +77,6 @@
         {
         "MsmKey" = "8:_290F5385708D4E2FB881FF9B72652451"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2C2C41BC05E9CE5B9E11BCB24FE78E34"
-        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2C2C41BC05E9CE5B9E11BCB24FE78E34"
-        "OwnerKey" = "8:_8920855F49CCBD98BC3B9E4C5719BCB2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2C2C41BC05E9CE5B9E11BCB24FE78E34"
-        "OwnerKey" = "8:_DFFF9B604CD49370FD74918B70D94B5B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2C2C41BC05E9CE5B9E11BCB24FE78E34"
-        "OwnerKey" = "8:_F086CF2DDE755A284DB1B2F06578F213"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -124,12 +124,6 @@
         "Entry"
         {
         "MsmKey" = "8:_5398FEED5F1613FFF342CF1D45DD3169"
-        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_5761F9B828BCD296C3C8F07B8DAE75F1"
         "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -189,8 +183,38 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_63E72ED6EC4098B801BAA4337B548641"
+        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_63E72ED6EC4098B801BAA4337B548641"
+        "OwnerKey" = "8:_DBA5D159432E7F949C62C4DB5AFDB649"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_63E72ED6EC4098B801BAA4337B548641"
+        "OwnerKey" = "8:_22EC81B5051F28FD0CD3B30ACF81FBA8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_6598DE44C73746A79E797F22FDDEE486"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_659A040E5645480203F2C34B5DF46139"
+        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_659A040E5645480203F2C34B5DF46139"
+        "OwnerKey" = "8:_EFB8F196D179CFD3F3F56BB8A0920742"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -202,6 +226,12 @@
         "Entry"
         {
         "MsmKey" = "8:_6BD3D4BAF3AE8B4ACF603A84E9787385"
+        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6C4D215E16C134353F6DCEF6BCD4B9D1"
         "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -231,25 +261,31 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7CE4C2FF22CF5BBF8C5470D62EF7DECC"
-        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
+        "MsmKey" = "8:_89DCC667087E6810956602BC29E088EB"
+        "OwnerKey" = "8:_659A040E5645480203F2C34B5DF46139"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_81E29C86141A6B7FE1BB3B3DB1816EAC"
-        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
+        "MsmKey" = "8:_89DCC667087E6810956602BC29E088EB"
+        "OwnerKey" = "8:_6C4D215E16C134353F6DCEF6BCD4B9D1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_81E29C86141A6B7FE1BB3B3DB1816EAC"
-        "OwnerKey" = "8:_7CE4C2FF22CF5BBF8C5470D62EF7DECC"
+        "MsmKey" = "8:_89DCC667087E6810956602BC29E088EB"
+        "OwnerKey" = "8:_C6992C3D57846B6B509475AA6604DEA2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8920855F49CCBD98BC3B9E4C5719BCB2"
+        "MsmKey" = "8:_89DCC667087E6810956602BC29E088EB"
+        "OwnerKey" = "8:_EFB8F196D179CFD3F3F56BB8A0920742"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_89DCC667087E6810956602BC29E088EB"
         "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -333,30 +369,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_92CEE5545E75FA32D4F940FB9EE879C6"
-        "OwnerKey" = "8:_81E29C86141A6B7FE1BB3B3DB1816EAC"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_92CEE5545E75FA32D4F940FB9EE879C6"
-        "OwnerKey" = "8:_8920855F49CCBD98BC3B9E4C5719BCB2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_92CEE5545E75FA32D4F940FB9EE879C6"
-        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_92CEE5545E75FA32D4F940FB9EE879C6"
-        "OwnerKey" = "8:_F8EBC59D4FDD7067D7C73C100CA3631F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_92D02B2B510144D9B59CDBFFFB65DC3B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -405,14 +417,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A315B6367FC385AD18006A652124AF66"
+        "MsmKey" = "8:_A3FB82CBE79D5C09DA5F6896C9EB9D93"
+        "OwnerKey" = "8:_659A040E5645480203F2C34B5DF46139"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A3FB82CBE79D5C09DA5F6896C9EB9D93"
+        "OwnerKey" = "8:_6C4D215E16C134353F6DCEF6BCD4B9D1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A3FB82CBE79D5C09DA5F6896C9EB9D93"
         "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A315B6367FC385AD18006A652124AF66"
-        "OwnerKey" = "8:_D60DBEAE23BF920E9C8BB80695338E29"
+        "MsmKey" = "8:_A3FB82CBE79D5C09DA5F6896C9EB9D93"
+        "OwnerKey" = "8:_89DCC667087E6810956602BC29E088EB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -459,26 +483,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_CD8043CF69CF4A5DACD2CD6CC0EA41FE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CED85425BF468AD55A01666176461476"
+        "MsmKey" = "8:_C6992C3D57846B6B509475AA6604DEA2"
         "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_CED85425BF468AD55A01666176461476"
-        "OwnerKey" = "8:_D60DBEAE23BF920E9C8BB80695338E29"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CED85425BF468AD55A01666176461476"
-        "OwnerKey" = "8:_A315B6367FC385AD18006A652124AF66"
+        "MsmKey" = "8:_CD8043CF69CF4A5DACD2CD6CC0EA41FE"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -501,12 +513,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_D60DBEAE23BF920E9C8BB80695338E29"
-        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_D6E1763BD313676D09A67D0A4F168AA7"
         "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
         "MsmSig" = "8:_UNDEFINED"
@@ -519,26 +525,20 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_DBA5D159432E7F949C62C4DB5AFDB649"
+        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_DCF310757312459DA1D92ACAEF3DDA51"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_DFFF9B604CD49370FD74918B70D94B5B"
-        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_E262DF86FD6D6E51A3B77D5F22E716D3"
         "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E262DF86FD6D6E51A3B77D5F22E716D3"
-        "OwnerKey" = "8:_F086CF2DDE755A284DB1B2F06578F213"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -579,6 +579,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_EFB8F196D179CFD3F3F56BB8A0920742"
+        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F0392DD1DC082EC19363C98EAC38EE77"
         "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
         "MsmSig" = "8:_UNDEFINED"
@@ -599,12 +605,6 @@
         {
         "MsmKey" = "8:_F0392DD1DC082EC19363C98EAC38EE77"
         "OwnerKey" = "8:_A1BBA52900635CF84B49726C473B3FDE"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F086CF2DDE755A284DB1B2F06578F213"
-        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -635,36 +635,6 @@
         {
         "MsmKey" = "8:_F4E7220CFC64446080C3359480D045FB"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8EBC59D4FDD7067D7C73C100CA3631F"
-        "OwnerKey" = "8:_81E29C86141A6B7FE1BB3B3DB1816EAC"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8EBC59D4FDD7067D7C73C100CA3631F"
-        "OwnerKey" = "8:_8920855F49CCBD98BC3B9E4C5719BCB2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8EBC59D4FDD7067D7C73C100CA3631F"
-        "OwnerKey" = "8:_5761F9B828BCD296C3C8F07B8DAE75F1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8EBC59D4FDD7067D7C73C100CA3631F"
-        "OwnerKey" = "8:_7CE4C2FF22CF5BBF8C5470D62EF7DECC"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8EBC59D4FDD7067D7C73C100CA3631F"
-        "OwnerKey" = "8:_3C73A3C473104F70A1AF31E9A8A273B2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -850,73 +820,61 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8920855F49CCBD98BC3B9E4C5719BCB2"
+        "OwnerKey" = "8:_DBA5D159432E7F949C62C4DB5AFDB649"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5761F9B828BCD296C3C8F07B8DAE75F1"
+        "OwnerKey" = "8:_22EC81B5051F28FD0CD3B30ACF81FBA8"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7CE4C2FF22CF5BBF8C5470D62EF7DECC"
+        "OwnerKey" = "8:_63E72ED6EC4098B801BAA4337B548641"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_81E29C86141A6B7FE1BB3B3DB1816EAC"
+        "OwnerKey" = "8:_6C4D215E16C134353F6DCEF6BCD4B9D1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F8EBC59D4FDD7067D7C73C100CA3631F"
+        "OwnerKey" = "8:_C6992C3D57846B6B509475AA6604DEA2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_92CEE5545E75FA32D4F940FB9EE879C6"
+        "OwnerKey" = "8:_EFB8F196D179CFD3F3F56BB8A0920742"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D60DBEAE23BF920E9C8BB80695338E29"
+        "OwnerKey" = "8:_659A040E5645480203F2C34B5DF46139"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A315B6367FC385AD18006A652124AF66"
+        "OwnerKey" = "8:_89DCC667087E6810956602BC29E088EB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CED85425BF468AD55A01666176461476"
+        "OwnerKey" = "8:_A3FB82CBE79D5C09DA5F6896C9EB9D93"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DFFF9B604CD49370FD74918B70D94B5B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F086CF2DDE755A284DB1B2F06578F213"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2C2C41BC05E9CE5B9E11BCB24FE78E34"
+        "OwnerKey" = "8:_063AFB07EEF7AB43C8F40AE7FE694D6F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1072,6 +1030,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
             }
         }
     }
@@ -1102,6 +1068,37 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_063AFB07EEF7AB43C8F40AE7FE694D6F"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Data.SQLite, Version=1.0.108.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_063AFB07EEF7AB43C8F40AE7FE694D6F"
+                    {
+                    "Name" = "8:System.Data.SQLite.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Data.SQLite.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0D8BFD32D90B42C684B071A7AB630913"
             {
             "SourcePath" = "8:..\\Watch List\\bin\\Debug\\x86\\SQLite.Interop.dll"
@@ -1246,6 +1243,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_22EC81B5051F28FD0CD3B30ACF81FBA8"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Tiraggo.Interfaces, Version=2014.1.419.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_22EC81B5051F28FD0CD3B30ACF81FBA8"
+                    {
+                    "Name" = "8:Tiraggo.Interfaces.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tiraggo.Interfaces.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_25E33957FF8C3DE0D56737F444D54DB7"
             {
             "AssemblyRegister" = "3:1"
@@ -1306,37 +1334,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2C2C41BC05E9CE5B9E11BCB24FE78E34"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Data.SQLite, Version=1.0.108.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_2C2C41BC05E9CE5B9E11BCB24FE78E34"
-                    {
-                    "Name" = "8:System.Data.SQLite.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Data.SQLite.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2EEB9CEF9150464C89DA4D64E113CA14"
@@ -1525,37 +1522,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5761F9B828BCD296C3C8F07B8DAE75F1"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tiraggo.Loader, Version=2014.1.419.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_5761F9B828BCD296C3C8F07B8DAE75F1"
-                    {
-                    "Name" = "8:Tiraggo.Loader.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Tiraggo.Loader.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5F6773D260CB4F4B9154E80778822B8B"
             {
             "SourcePath" = "8:C:\\SomeFolder\\database.db"
@@ -1607,6 +1573,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_63E72ED6EC4098B801BAA4337B548641"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Tiraggo.DynamicQuery, Version=2014.1.419.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_63E72ED6EC4098B801BAA4337B548641"
+                    {
+                    "Name" = "8:Tiraggo.DynamicQuery.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tiraggo.DynamicQuery.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6598DE44C73746A79E797F22FDDEE486"
             {
             "AssemblyRegister" = "3:1"
@@ -1636,6 +1633,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_659A040E5645480203F2C34B5DF46139"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Tiraggo.Core, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_659A040E5645480203F2C34B5DF46139"
+                    {
+                    "Name" = "8:Tiraggo.Core.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tiraggo.Core.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_65F5EB28A6C2468C9AD471B8168F1ACB"
@@ -1683,6 +1711,37 @@
                     }
                 }
             "SourcePath" = "8:DevExpress.Xpf.Themes.DXStyle.v15.2.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6C4D215E16C134353F6DCEF6BCD4B9D1"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Tiraggo.SqlClientProvider, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_6C4D215E16C134353F6DCEF6BCD4B9D1"
+                    {
+                    "Name" = "8:Tiraggo.SqlClientProvider.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tiraggo.SqlClientProvider.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
@@ -1824,20 +1883,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7CE4C2FF22CF5BBF8C5470D62EF7DECC"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_89DCC667087E6810956602BC29E088EB"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tiraggo.js, Version=2014.1.419.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tiraggo.Interfaces, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_7CE4C2FF22CF5BBF8C5470D62EF7DECC"
+                    "_89DCC667087E6810956602BC29E088EB"
                     {
-                    "Name" = "8:Tiraggo.js.dll"
+                    "Name" = "8:Tiraggo.Interfaces.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Tiraggo.js.dll"
+            "SourcePath" = "8:Tiraggo.Interfaces.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
@@ -1851,69 +1910,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_81E29C86141A6B7FE1BB3B3DB1816EAC"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tiraggo.Core, Version=2014.1.419.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_81E29C86141A6B7FE1BB3B3DB1816EAC"
-                    {
-                    "Name" = "8:Tiraggo.Core.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Tiraggo.Core.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8920855F49CCBD98BC3B9E4C5719BCB2"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tiraggo.SQLiteProvider, Version=2014.1.419.0, Culture=neutral, processorArchitecture=x86"
-                "ScatterAssemblies"
-                {
-                    "_8920855F49CCBD98BC3B9E4C5719BCB2"
-                    {
-                    "Name" = "8:Tiraggo.SQLiteProvider.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Tiraggo.SQLiteProvider.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -1962,37 +1959,6 @@
                     }
                 }
             "SourcePath" = "8:DevExpress.Data.v15.2.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_92CEE5545E75FA32D4F940FB9EE879C6"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tiraggo.DynamicQuery, Version=2014.1.419.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_92CEE5545E75FA32D4F940FB9EE879C6"
-                    {
-                    "Name" = "8:Tiraggo.DynamicQuery.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Tiraggo.DynamicQuery.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
@@ -2072,15 +2038,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A315B6367FC385AD18006A652124AF66"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A3FB82CBE79D5C09DA5F6896C9EB9D93"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tiraggo.Interfaces, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tiraggo.DynamicQuery, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_A3FB82CBE79D5C09DA5F6896C9EB9D93"
+                    {
+                    "Name" = "8:Tiraggo.DynamicQuery.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
-            "SourcePath" = "8:Tiraggo.Interfaces.dll"
+            "SourcePath" = "8:Tiraggo.DynamicQuery.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
@@ -2094,7 +2065,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -2315,6 +2286,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C6992C3D57846B6B509475AA6604DEA2"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Tiraggo.Loader, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_C6992C3D57846B6B509475AA6604DEA2"
+                    {
+                    "Name" = "8:Tiraggo.Loader.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tiraggo.Loader.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CD8043CF69CF4A5DACD2CD6CC0EA41FE"
             {
             "SourcePath" = "8:..\\Watch List\\bin\\Debug\\x64\\SQLite.Interop.dll"
@@ -2333,32 +2335,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CED85425BF468AD55A01666176461476"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tiraggo.DynamicQuery, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                }
-            "SourcePath" = "8:Tiraggo.DynamicQuery.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D03B77F0C3A44CC291643C2919F5B6CC"
@@ -2454,32 +2430,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D60DBEAE23BF920E9C8BB80695338E29"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tiraggo.SqlClientProvider, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                }
-            "SourcePath" = "8:Tiraggo.SqlClientProvider.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D6E1763BD313676D09A67D0A4F168AA7"
             {
             "AssemblyRegister" = "3:1"
@@ -2542,6 +2492,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DBA5D159432E7F949C62C4DB5AFDB649"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Tiraggo.SQLiteProvider, Version=2014.1.419.0, Culture=neutral, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_DBA5D159432E7F949C62C4DB5AFDB649"
+                    {
+                    "Name" = "8:Tiraggo.SQLiteProvider.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tiraggo.SQLiteProvider.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DCF310757312459DA1D92ACAEF3DDA51"
             {
             "SourcePath" = "8:..\\..\\..\\..\\..\\Pictures\\Dailyoverview-Tv-Television-15.ico"
@@ -2560,37 +2541,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DFFF9B604CD49370FD74918B70D94B5B"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Data.SQLite.Linq, Version=1.0.108.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_DFFF9B604CD49370FD74918B70D94B5B"
-                    {
-                    "Name" = "8:System.Data.SQLite.Linq.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Data.SQLite.Linq.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E262DF86FD6D6E51A3B77D5F22E716D3"
@@ -2717,20 +2667,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F0392DD1DC082EC19363C98EAC38EE77"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EFB8F196D179CFD3F3F56BB8A0920742"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DevExpress.Printing.v15.2.Core, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tiraggo.js, Version=2015.1.309.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F0392DD1DC082EC19363C98EAC38EE77"
+                    "_EFB8F196D179CFD3F3F56BB8A0920742"
                     {
-                    "Name" = "8:DevExpress.Printing.v15.2.Core.dll"
+                    "Name" = "8:Tiraggo.js.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:DevExpress.Printing.v15.2.Core.dll"
+            "SourcePath" = "8:Tiraggo.js.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
@@ -2748,20 +2698,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F086CF2DDE755A284DB1B2F06578F213"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F0392DD1DC082EC19363C98EAC38EE77"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Data.SQLite.EF6, Version=1.0.108.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:DevExpress.Printing.v15.2.Core, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F086CF2DDE755A284DB1B2F06578F213"
+                    "_F0392DD1DC082EC19363C98EAC38EE77"
                     {
-                    "Name" = "8:System.Data.SQLite.EF6.dll"
+                    "Name" = "8:DevExpress.Printing.v15.2.Core.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:System.Data.SQLite.EF6.dll"
+            "SourcePath" = "8:DevExpress.Printing.v15.2.Core.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
@@ -2901,37 +2851,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F8EBC59D4FDD7067D7C73C100CA3631F"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tiraggo.Interfaces, Version=2014.1.419.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_F8EBC59D4FDD7067D7C73C100CA3631F"
-                    {
-                    "Name" = "8:Tiraggo.Interfaces.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Tiraggo.Interfaces.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A4EA4F7A28244B94A2603CBAA502BCC8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
         }
