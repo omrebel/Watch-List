@@ -13,6 +13,7 @@ namespace Watch_List.ViewModels
     public class LookupViewModel
     {
         #region Properties
+        protected ISplashScreenService SplashScreenService { get { return this.GetService<ISplashScreenService>(); } }
         public List<UICommand> DialogCommands { get; private set; }
         public UICommand OKCommand { get; private set; }
         public UICommand CancelCommand { get; private set; }
@@ -74,42 +75,53 @@ namespace Watch_List.ViewModels
 
         public async void Search()
         {
-            var series = await TVMaze.TVMaze.FindSingleSeries(LookupValue, FetchEpisodes: true);
-
-            if (series.status != "404")
+            try
             {
-                string typeofSeries = "";
-                if (series.webChannel == null) typeofSeries = $"Network: {series.network.name}({series.network.country.code}) \n";
-                else if (series.network == null) typeofSeries = $"WebChannel: {series.webChannel.name}\n";
+                this.SplashScreenService.ShowSplashScreen();
+                this.SplashScreenService.SetSplashScreenState("Looking up show information....");
+                var series = await TVMaze.TVMaze.FindSingleSeries(LookupValue, FetchEpisodes: true);
 
-                string nextEpisode = "N/A";
-
-                foreach (var episode in series.Episodes)
+                if (series.status != "404")
                 {
-                    if (episode.airdate >= DateTime.Today)
+                    string typeofSeries = "";
+                    if (series.webChannel == null) typeofSeries = $"Network: {series.network.name}({series.network.country.code}) \n";
+                    else if (series.network == null) typeofSeries = $"WebChannel: {series.webChannel.name}\n";
+
+                    string nextEpisode = "N/A";
+
+                    foreach (var episode in series.Episodes)
                     {
-                        var convertedDate = DateTime.SpecifyKind(
-                            DateTime.Parse(episode.airstamp.ToString()),
-                            DateTimeKind.Utc);
+                        if (episode.airdate >= DateTime.Today)
+                        {
+                            var convertedDate = DateTime.SpecifyKind(
+                                DateTime.Parse(episode.airstamp.ToString()),
+                                DateTimeKind.Utc);
 
-                        nextEpisode = episode.ToString() + " - " + convertedDate.ToString() + " (" + episode.name + ")";
-                        NextAirDate = convertedDate.ToString("MM/dd/yy") + " " + convertedDate.ToShortTimeString();
-                        break;
+                            nextEpisode = episode.ToString() + " - " + convertedDate.ToString() + " (" + episode.name + ")";
+                            NextAirDate = convertedDate.ToString("MM/dd/yy") + " " + convertedDate.ToShortTimeString();
+                            break;
+                        }
                     }
-                }
 
-                this.ShowId = series.id.ToString();
-                this.ShowName = series.name;
-                this.NetworkName = $"{typeofSeries}{series.Episodes.Count} Episodes \nFirst Aired: {Convert.ToDateTime(series.premiered).ToShortDateString()} \nRuntime: {series.runtime} minutes.\nNext Episode: {nextEpisode}";
-                this.Synopsis = series.summary;
-                this.ShowImage = series.image.medium.AbsoluteUri.ToString();
+                    this.ShowId = series.id.ToString();
+                    this.ShowName = series.name;
+                    this.NetworkName = $"{typeofSeries}{series.Episodes.Count} Episodes \nFirst Aired: {Convert.ToDateTime(series.premiered).ToShortDateString()} \nRuntime: {series.runtime} minutes.\nNext Episode: {nextEpisode}";
+                    this.Synopsis = series.summary;
+                    this.ShowImage = series.image.medium.AbsoluteUri.ToString();
+                    this.SplashScreenService.HideSplashScreen();
+                }
+                else
+                {
+                    this.SplashScreenService.HideSplashScreen();
+                    //splashScreenManager1.CloseWaitForm();
+                    //btnAdd.Enabled = false;
+                    //pnlMain.Visible = false;
+                    //MessageBox.Show("Series not found.", txtName.Text);
+                }
             }
-            else
+            catch (Exception ex)
             {
-                //splashScreenManager1.CloseWaitForm();
-                //btnAdd.Enabled = false;
-                //pnlMain.Visible = false;
-                //MessageBox.Show("Series not found.", txtName.Text);
+                this.SplashScreenService.HideSplashScreen();
             }
         }
 

@@ -31,14 +31,9 @@
                 <dxlc:LayoutItem Label="{Binding NetworkName, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left"  />
                 <dxlc:LayoutGroup Orientation="Vertical" >
                     <dxe:TextEdit EditValue="{Binding Synopsis, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Height="190" VerticalAlignment="Bottom" 
-                              VerticalContentAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Auto" Width="300" />
+                              VerticalContentAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Auto" Width="300" IsReadOnly="True" />
                 </dxlc:LayoutGroup>
             </dxlc:LayoutGroup>
-            
         </dxlc:LayoutGroup>
-
-
-
     </dxlc:LayoutControl>
-    
 </UserControl>

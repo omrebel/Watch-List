@@ -52,7 +52,6 @@
                         </dxmvvm:Interaction.Behaviors>
                     </dxg:TableView>
                 </dxg:GridControl.View>
-
             </dxg:GridControl>
         </DockPanel>
     </dxb:BarManager>

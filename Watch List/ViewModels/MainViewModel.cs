@@ -54,40 +54,40 @@ namespace Watch_List.ViewModels
             response.Close();
             #endregion
 
-            #region Create Database
-            if (!System.IO.File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db"))
-            {
-                try
-                {
-                    this.SplashScreenService.ShowSplashScreen();
-                    SQLiteConnection.CreateFile(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db");
+            #region Create Database - moved into App.xaml.cs
+            //if (!System.IO.File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db"))
+            //{
+            //    try
+            //    {
+            //        this.SplashScreenService.ShowSplashScreen();
+            //        SQLiteConnection.CreateFile(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db");
 
-                    //SQLiteConnection con = new SQLiteConnection("Data Source=database.db;Version=3;");
-                    string conString = "DataSource=" + Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db;Version=3;";
-                    SQLiteConnection con = new SQLiteConnection(conString);
-                    con.Open();
+            //        //SQLiteConnection con = new SQLiteConnection("Data Source=database.db;Version=3;");
+            //        string conString = "DataSource=" + Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\TV Shows\\database.db;Version=3;";
+            //        SQLiteConnection con = new SQLiteConnection(conString);
+            //        con.Open();
 
-                    string sql = "CREATE TABLE TVShows (Id integer primary key AUTOINCREMENT UNIQUE, MazeId varchar(25), Title  varchar(100), Synopsis varchar(255), Image varchar(255), NextAirDate varchar(100));";
-                    SQLiteCommand command = new SQLiteCommand(sql, con);
-                    command.ExecuteNonQuery();
+            //        string sql = "CREATE TABLE TVShows (Id integer primary key AUTOINCREMENT UNIQUE, MazeId varchar(25), Title  varchar(100), Synopsis varchar(255), Image varchar(255), NextAirDate varchar(100));";
+            //        SQLiteCommand command = new SQLiteCommand(sql, con);
+            //        command.ExecuteNonQuery();
 
-                    sql = "CREATE TABLE Recipients (Id integer primary key AUTOINCREMENT UNIQUE, EmailAddress varchar(255));";
-                    command = new SQLiteCommand(sql, con);
-                    command.ExecuteNonQuery();
+            //        sql = "CREATE TABLE Recipients (Id integer primary key AUTOINCREMENT UNIQUE, EmailAddress varchar(255));";
+            //        command = new SQLiteCommand(sql, con);
+            //        command.ExecuteNonQuery();
 
-                    sql = "CREATE TABLE MailPreferences (Id integer primary key AUTOINCREMENT UNIQUE, EmailAddress varchar(255), Password varchar(255));";
-                    command = new SQLiteCommand(sql, con);
-                    command.ExecuteNonQuery();
+            //        sql = "CREATE TABLE MailPreferences (Id integer primary key AUTOINCREMENT UNIQUE, EmailAddress varchar(255), Password varchar(255));";
+            //        command = new SQLiteCommand(sql, con);
+            //        command.ExecuteNonQuery();
 
-                    con.Close();
-                    this.SplashScreenService.HideSplashScreen();
-                }
-                catch (Exception ex)
-                {
-                    this.SplashScreenService.HideSplashScreen();
-                    this.MessageBoxService.ShowMessage(ex.Message, "Error");
-                }
-            }
+            //        con.Close();
+            //        this.SplashScreenService.HideSplashScreen();
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        this.SplashScreenService.HideSplashScreen();
+            //        this.MessageBoxService.ShowMessage(ex.Message, "Error");
+            //    }
+            //}
             #endregion
 
             #region Populate Data
