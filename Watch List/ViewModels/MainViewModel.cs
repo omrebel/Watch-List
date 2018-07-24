@@ -20,7 +20,6 @@ namespace Watch_List.ViewModels
         protected IDialogService DialogService { get { return this.GetService<IDialogService>(); } }
         protected ISplashScreenService SplashScreenService { get { return this.GetService<ISplashScreenService>(); } }
         protected IMessageBoxService MessageBoxService {  get { return this.GetRequiredService<IMessageBoxService>(); } }
-
         public virtual TVShowsCollection TVShowsCollection { get; set; }
         public virtual ObservableCollection<TVShows> Shows { get; set; }
         public virtual ObservableCollection<TodayShow> TodayShows { get; set; }
